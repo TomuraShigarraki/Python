@@ -1,4 +1,5 @@
-import pyautogui,time#
+import pyautogui
+import time
 a=0
 b=0
 command=''
