@@ -1,5 +1,6 @@
 import pyautogui
 import time
+import random
 a=0
 b=0
 command=''
@@ -33,4 +34,7 @@ while(command!='Стоп'):
             pyautogui.write(c)
             time.sleep(10)
             pyautogui.press('enter')
-    elif command==
+    elif command=='Рандомайзер':
+            d=int(input('Введите масимальное число'))
+            f=random.randint(0,d)
+            print(f)
